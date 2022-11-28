@@ -54,7 +54,7 @@ function TodoListCard() {
             <AddItemForm onNewItem={onNewItem} />
             {items.length === 0 && (
                 // <p className="text-center">No items yet! Add one above!</p>
-                <p className="text-center">Tambahin dong kak!</p>
+                <p className="text-center">Ini diganti ya ges</p>
             )}
             {items.map(item => (
                 <ItemDisplay
